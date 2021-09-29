@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap');
+
+html {
+    height: 100vh;
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(red, yellow);
+  font-family: 'Dosis', sans-serif;
+  background: linear-gradient(to bottom, #ed007a 0%,#cc002c 100%);
+  font-weight: 500;
+}
+
+.header {
+  background-color: transparent;
+  color: #ffffff;
+  padding-top: 6vh;
+  padding-bottom: 4vh;
+  width: 100vw;
+  text-align: center;
+  display: inline-block;
+}
+
+.profile_image {
+  width: 6vh;
+  height: auto;
+  float: left;
+  margin-left: 10vw;
+}
+
+#linkh {
+  margin-top: 1vh;
+}
+
+.nameh {
+  text-decoration:none;
+  color:inherit;
+  float:left;
+  margin-left: 3vw;
+  font-weight: 600;
+  font-size: 2vw;
+}
+.contacth {
+  text-decoration:none;
+  color:inherit;
+  float:right;
+  margin-right: 10vw;
+  padding-right:3vw;
+  font-weight: 500;
+  font-size: 2vw;
+  padding-top: 0.25%;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 90vw;
+}
+
+.img1 {
+
+  margin-left: 5vw;
+  margin-top: 5vh;
+  height: 35vw;
+  width: auto;
+}
+
+.text_parent {
+  color: white;
+  margin-top: 5vh;
+  margin-left: 3vw;
+}
+
+.abt {
+  font-weight: 600;
+  font-size: 3vw;
+  margin-bottom: 2vh;
+}
+
+.abt_txt {
+  font-size: 1.40vw;
+}
